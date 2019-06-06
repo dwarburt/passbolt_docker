@@ -30,7 +30,8 @@ ARG PASSBOLT_BASE_PACKAGES="nginx \
          libmcrypt4 \
          mysql-client \
          supervisor \
-         cron"
+         cron \
+         netcat"
 
 ENV PECL_BASE_URL="https://pecl.php.net/get"
 ENV PHP_EXT_DIR="/usr/src/php/ext"
